@@ -9,6 +9,7 @@ public class Ejer05 extends Thread {
     int cant_notas;
     public Ejer05(int cant_notas) {
         this.cant_notas=cant_notas;
+        System.out.println("cont al empesar"+this.cont);
         System.out.println("ingresar Nota "+this.cant_notas);
         nota = datos.nextInt();
         System.out.println(nota);
