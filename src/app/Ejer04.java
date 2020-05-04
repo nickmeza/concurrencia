@@ -8,7 +8,11 @@ public class Ejer04 extends Thread {
     String estacion;
 
     public Ejer04() {
-        System.out.println("ingresar estacion de año");
+        System.out.print("seleccione una ");
+        for (String string : estaciones) {
+            System.out.print(string+" ");
+        }
+        
         estacion = datos.nextLine();
     }
 
